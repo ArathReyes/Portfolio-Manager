@@ -78,6 +78,11 @@ You should expect a plot like follows:
 
 Finally, show a summary with relevant metrics of the portfolio constructed:
 
+```python
+print(MyPortfolio)
+```
+
+
 ```console
                  SUMMARY         
 -------------------------------------------
