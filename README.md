@@ -38,7 +38,7 @@ Now, select the type of portfolio by typing in your terminal one of the options 
 Select your portfolio type:
 ```
 
-For example, select the third option, i.e., Maximum Sharpe Ratio:
+For example, select the fourth option, i.e., Minimum Variance Portfolio:
 
 ```console
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -53,12 +53,12 @@ For example, select the third option, i.e., Maximum Sharpe Ratio:
 
 
 
-Select your portfolio type: 3
+Select your portfolio type: 4
 [*********************100%***********************]  5 of 5 completed
 ```
 Now, lets plot the efficient frontier and the admissible portfolios using Monte Carlo simulation. Select the number of simulations:
 ```python
-nsim = 7500
+nsim = 250000
 ```
 Lets run the simulation:
 
@@ -75,17 +75,17 @@ Finally, show a summary with relevant metrics of the portfolio constructed:
 ```console
                  SUMMARY         
 -------------------------------------------
-+ Type of Portfolio: Maximum Sharpe Ratio
++ Type of Portfolio: Minimum Variance
 + Stocks: ['TSLA', 'WMT', 'GOOG', 'AMZN']
 + Market: ^GSPC
-+ Weights: [0. 0. 1. 0.]
-+ Expect Return: 0.386
-+ Volatility: 0.263
++ Weights: [0.001 0.704 0.184 0.111]
++ Expect Return: 0.094
++ Volatility: 0.152
 + Risk Free Rate: 0.0
 + Notional: 1
-+ Beta: 1.301
-+ Sharpe Ratio: 1.47
-+ Treynor Ratio: 0.297
++ Beta: 0.635
++ Sharpe Ratio: 0.617
++ Treynor Ratio: 0.147
 + Start Date: 2021-01-04
 + End Date: 2022-03-31
 ```
