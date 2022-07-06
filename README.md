@@ -69,6 +69,9 @@ MyPortfolio.plot_efficient_frontier(nsim)
 You should expect a plot like follows:
 
 
+<p align="center">
+   <img src="https://github.com/ArathReyes/Portfolio-Manager/blob/main/gallery/min_variance_port.png"/>
+</p>
 
 Finally, show a summary with relevant metrics of the portfolio constructed:
 
