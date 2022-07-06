@@ -1,6 +1,6 @@
 # Portfolio-Manager
 
-![](https://img.shields.io/github/stars/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/github/forks/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/github/tag/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/github/release/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/github/issues/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+![](https://img.shields.io/github/stars/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/github/forks/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/github/tag/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/github/release/ArathReyes/Portfolio-Manager.svg) ![](https://img.shields.io/github/issues/ArathReyes/Portfolio-Manager.svg)
 
 
 Import portfolio_optimizer:
