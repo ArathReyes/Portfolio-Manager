@@ -24,7 +24,7 @@ Construct your portfolio:
 MyPortfolio = Portfolio()
 MyPortfolio.compute(tickers,market, start_date = start_date, end_date = end_date)
 ```
-Now, select the type of portfolio by typing in your terminal one of the options showed in the menu:
+Now, select the type of portfolio by typing in your terminal one of the options shown in the menu:
 ```console
 ~~~~~~~~~~~~~~~~~~~~~~
         MENU
