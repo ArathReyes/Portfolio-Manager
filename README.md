@@ -1,41 +1,24 @@
 # Portfolio-Manager
 
 
+Import portfolio_optimizer:
+
 ```python
-function test(){
-	console.log("Hello world!");
-}
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
-
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-			return this;
-        },
-
-		add : function(str){
-			alert("add", str);
-
-			return this;
-		},
-
-		remove : function(str){
-			alert("remove", str);
-
-			return this;
-		}
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
+from portfolio_optimizer import Portfolio
 ```
+
+Define your market, tickers, start date and end date:
+
+```python
+market = "^GSPC"
+tickers = ["TSLA","WMT","GOOG","AMZN"]
+start_date = "2021-1-1"
+end_date = "2022-4-1"
+```
+Construct your portfolio:
+
+```python
+MyPortfolio = Portfolio()
+MyPortfolio.compute(tickers,market, start_date = start_date, end_date = end_date)
+```
+Now, select the type of portfolio:
