@@ -23,6 +23,17 @@ MyPortfolio.compute(tickers,market, start_date = start_date, end_date = end_date
 ```
 Now, select the type of portfolio:
 ```console
-foo@bar:~$ whoami
-foo
+~~~~~~~~~~~~~~~~~~~~~~
+        MENU
+~~~~~~~~~~~~~~~~~~~~~~
+[1] Markowitz
+[2] PCA
+[3] Maximum Sharpe Ratio
+[4] Minimum Variance
+[5] Equi Weighted
+[6] Custom
+
+
+
+Select your portfolio type:
 ```
