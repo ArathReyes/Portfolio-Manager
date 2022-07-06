@@ -22,3 +22,7 @@ MyPortfolio = Portfolio()
 MyPortfolio.compute(tickers,market, start_date = start_date, end_date = end_date)
 ```
 Now, select the type of portfolio:
+```console
+foo@bar:~$ whoami
+foo
+```
